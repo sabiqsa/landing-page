@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Sabiq Rahmatullah | Cermati.com Front-end Developer Entry Test</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://kit.fontawesome.com/8a3f0171c4.js" crossorigin="anonymous"></script>
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="cermati__main_container">
+            <section id="notification-panel">
+                <div id="notification" class="cermati__notification_panel_container">
+                    <div class="cermati__notification_panel_content">
+                        By accessing and using this website, you acknowledge that you have read and
+                        understand our <a href="headline">Cookie Policy</a>, <a>Privacy Policy</a>, and our <a>Terms of
+                            Service</a>.
+                    </div>
+                    <div class="cermati__notification_panel_btn">
+                        <button onClick=handleCloseNotification()>Got it</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="headline">
+                <div class="cermati__headline_container">
+                    <div class="cermati__headline_img">
+                        <img src="./assets/header-logo.png" alt="" id="header-img" />
+                    </div>
+                    <div class="cermati__headline_content">
+                        <div class="cermati__headline_content_name">Hello! I'm Sabiq</div>
+                        <div class="cermati__headline_content_role">Consult, Design, and Develop Website</div>
+                        <div class="cermati__headline_content_desc">
+                            <p>Have something great in mind? Feel free to contact me.</p>
+                            <p>I'll help you to make it happen.</p>
+                        </div>
+                        <div class="cermati__headline_btn">
+                            <button id="isBtnRedirect"><a>Let's Make Contact</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="panel">
+                <div id="panel" class="cermati__panel_container">
+                    <div class="cermati__panel_content">
+                        <div class="cermati__panel_title">
+                            <h1>How Can I Help You?</h1>
+                            <p>Our work then targeted, best practices outcomes social innovation synergy.<br>
+                                Venture philanthropy, revolutionary inclusive policymaker relief.<br> User-centered
+                                program areas scale.</p>
+                        </div>
+                    </div>
+                    <div class="cermati__panel_sub_content">
+                        <div class="cermati__panel_sub_content_items">
+                            <div class="cermati__panel_sub_content_items_title">
+                                <span>Consult</span><i class="fas fa-comments"></i>
+                            </div>
+                            <div class="cermati__panel_sub_content_items_desc">
+                                Co-create, design thinking; strengthen infrastructure resist granular.
+                                Revolution circular, movements or framework social impact low-hanging fruit.
+                                Save the world compelling revolutionary progress.
+                            </div>
+                        </div>
+
+                        <div class="cermati__panel_sub_content_items">
+                            <div class="cermati__panel_sub_content_items_title">
+                                <span>Design</span><i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="cermati__panel_sub_content_items_desc">
+                                Policymaker collaborates collective impact humanitarian shared value
+                                vocabulary inspire issue outcomes agile. Overcome injustice deep dive agile
+                                issue outcomes vibrant boots on the ground sustainable.
+                            </div>
+                        </div>
+
+                        <div class="cermati__panel_sub_content_items">
+                            <div class="cermati__panel_sub_content_items_title">
+                                <span>Develop</span><i class="fas fa-cubes"></i>
+                            </div>
+                            <div class="cermati__panel_sub_content_items_desc">
+                                Revolutionary circular, movements a or impact framework social impact low-
+                                hanging. Save the compelling revolutionary inspire progress. Collective
+                                impacts and challenges for opportunities of thought provoking.
+                            </div>
+                        </div>
+
+                        <div class="cermati__panel_sub_content_items">
+                            <div class="cermati__panel_sub_content_items_title">
+                                <span>Marketing</span><i class="fas fa-bullhorn"></i>
+                            </div>
+                            <div class="cermati__panel_sub_content_items_desc">
+                                Peaceful; vibrant paradigm, collaborative cities. Shared vocabulary agile,
+                                replicable, effective altruism youth. Mobilize commitment to overcome
+                                injustice resilient, uplift social transparent effective.
+                            </div>
+                        </div>
+
+                        <div class="cermati__panel_sub_content_items">
+                            <div class="cermati__panel_sub_content_items_title">
+                                <span>Manage</span><i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="cermati__panel_sub_content_items_desc">
+                                Change-makers innovation or shared unit of analysis. Overcome injustice
+                                outcomes strategize vibrant boots on the ground sustainable. Optimism,
+                                effective altruism invest optimism corporate social.
+                            </div>
+                        </div>
+
+                        <div class="cermati__panel_sub_content_items">
+                            <div class="cermati__panel_sub_content_items_title">
+                                <span>Envolve</span><i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="cermati__panel_sub_content_items_desc">
+                                Activate catalyze and impact contextualize humanitarian. Unit of analysis
+                                overcome injustice storytelling altruism. Thought leadership mass
+                                incarceration. Outcomes big data, fairness, social game-changer.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="news-letter">
+                <div id="content-news" class="cermati__news_letter_container">
+                    <i onClick=onCloseContent() class="cermati__icon_times fas fa-times"></i>
+                    <div class="cermati__news_letter_content">
+                        <h1>Get latest updates in web technologies</h1>
+                        <p>I write articles related to web technologies, such as design trends, development
+                            tools, UI/UX case studies and reviews, and more. Sign up to my newsletter to get
+                            them all.
+                        </p>
+                    </div>
+                    <div class="cermati__news_letter_sub_content">
+                        <div class="cermati__news_letter_input">
+                            <input placeholder="Email Address"></input>
+                        </div>
+                        <div class="cermati__news_letter_btn">
+                            <button>Count me in!</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div id="footer" class="cermati__footer_container">
+                    <div class="cermati__footer_content">
+                        © 2021
+                        Sabiq. All rights reserved.
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
